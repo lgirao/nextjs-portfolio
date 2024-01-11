@@ -34,7 +34,7 @@ const Navbar = () => {
                         href={"/"}
                     >
                         <Image
-                            src="/Logo-Restaurant-Site.png"
+                            src="/Logo_Web_Developer.png"
                             width="200"
                             height="200"
                             //className={}
@@ -46,16 +46,16 @@ const Navbar = () => {
                     {!navbarOpen ? (
                         <button
                           onClick={() => setNavbarOpen(true)}
-                          className="flex items-center px-3 py-2 border rounded border-black text-black"
+                          className="flex items-center px-3 py-2 text-black focus:outline-dashed"
                         >
-                            <FaBars className="h-5 w-5" />
+                            <FaBars className="h-6 w-6" />
                         </button>
                     ) : (
                         <button
                           onClick={() => setNavbarOpen(false)}
-                          className="flex items-center px-3 py-2 border rounded border-black text-black"
+                          className="flex items-center px-3 py-2 text-black focus:outline-dashed"
                         >
-                          <HiOutlineXMark className="h-5 w-5" />
+                          <HiOutlineXMark className="h-6 w-6" />
                         </button>
                     )}
                     {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
