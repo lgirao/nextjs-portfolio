@@ -27,7 +27,7 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <nav className="container px-2 py-4">
+        <nav className="container px-2 py-4 my-0 mx-auto">
             <div className="flex flex-row justify-between items-center">
                 <div>
                     <Link
@@ -63,7 +63,7 @@ const Navbar = () => {
                 <div className="self-center hidden md:block">
                     <ul className="flex flex-row">
                         {navLinks.map((link, index) => (
-                            <li key={index} className="mr-4">
+                            <li key={index} className="mr-4 font-bold">
                                 <NavLink href={link.path} title={link.title} />
                             </li>
                         ))}
