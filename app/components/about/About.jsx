@@ -9,18 +9,20 @@ const skills = [
     {skill: "WordPress"},
     {skill: "AWS Console"},
     {skill: "Cloudflare"},
+    {skill: "Google Analytics"},
+    {skill: "Google Search"},
 ]
 
 const About = () => {
     return (
-        <section className="py-16">
+        <section className="py-16 mx-4">
             <div className="text-center mb-12">
                 <h2 id="about" className="text-3xl font-bold mb-12 relative heading-after">About Me</h2>
-                <p className="text-lg max-w-2xl mx-auto my-0">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+                <p className="text-lg max-w-2xl mx-auto">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
             </div>
-            <div className="grid grid-cols-2 gap-x-4 max-w-screen-xl">
-                <div className="px-4">
-                    <h3 className="text-xl font-bold mb-6">Get to know me!</h3>
+            <div className="block md:grid grid-cols-2 gap-x-4 max-w-screen-xl">
+                <div className="px-4 mb-8 md:mb-0">
+                    <h3 className="text-xl font-bold mb-6 text-center md:text-left">Get to know me!</h3>
                     <p className="text-sm text-neutral-500">
                         As a passionate Web Developer, my expertise lies in leveraging cutting-edge technologies to deliver high-quality, well-documented, and reusable code. I specialize in optimizing and monitoring performance to ensure peak operation of web applications. My commitment extends to ensuring cross-browser compatibility, facilitating seamless user interaction across various platforms. With a robust foundation in HTML, CSS, JavaScript, and other web technologies, I consistently develop user-friendly web applications that make a lasting impact.                        
                         <br></br><br></br>
@@ -28,7 +30,7 @@ const About = () => {
                     </p>
                 </div>
                 <div>
-                    <h3 className="text-xl font-bold mb-6">My skills</h3>
+                    <h3 className="text-xl font-bold mb-6 text-center md:text-left">My skills</h3>
                     <div className="flex flex-wrap">
                         {skills.map((skill, i) => (
                             <div 
