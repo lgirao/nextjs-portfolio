@@ -9,8 +9,8 @@ const skills = [
     {skill: "WordPress"},
     {skill: "AWS Console"},
     {skill: "Cloudflare"},
-    {skill: "Google Analytics"},
     {skill: "Google Search"},
+    {skill: "Google Analytics"},
 ]
 
 const About = () => {
@@ -35,7 +35,7 @@ const About = () => {
                         {skills.map((skill, i) => (
                             <div 
                                 key={i}
-                                className="bg-violet-100 rounded py-4 px-8 font-semibold text-base text-neutral-500 mr-6 mb-6"
+                                className="bg-violet-100 rounded py-4 px-8 font-semibold text-sm md:text-base text-neutral-500 mr-6 mb-6"
                             >
                                 {skill.skill}
                             </div>
