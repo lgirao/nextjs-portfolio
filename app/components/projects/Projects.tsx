@@ -8,7 +8,7 @@ const Projects = () => {
                 <p className="text-lg max-w-2xl mx-auto my-0 px-4">Here you will find a showcase of my best projects, personal and professional, using a variety of technology.</p>
             </div>
             <div className="px-4 flex md:block">
-                <div className="block md:grid grid-cols-4 gap-x-4 max-w-screen-xl mx-auto my-0">
+                <div className="block md:grid grid-cols-2 gap-x-4 gap-y-4 max-w-screen-xl mx-auto my-0">
                     <div className="flex flex-col max-w-xs mb-6 md:mb-0">
                         <Image
                           src="/lmsonline.png"
