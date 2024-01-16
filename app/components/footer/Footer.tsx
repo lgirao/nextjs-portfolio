@@ -7,10 +7,10 @@ const Footer = () => {
 
     return (
         <footer className="w-full bg-black py-16">
-            <div className="md:flex text-center max-w-5xl mx-auto my-0 px-5 justify-between text-white pb-8">
+            <div className="md:flex text-center max-w-5xl mx-auto my-0 px-5 md:px-0 justify-between text-white pb-8">
                 <div className="mb-5 md:mb-0 md:text-left">
                     <h2 className="text-xl uppercase font-bold mb-5">Lesley Girao</h2>
-                    <p className="text-base mx-auto mb-0 w-96">A passionate Web Developer committed to building exceptional digital experiences.</p>
+                    <p className="text-base mx-auto mb-0 w-auto md:w-96">A passionate Web Developer committed to building exceptional digital experiences.</p>
                 </div>
                 <div>
                     <h2 className="text-xl uppercase font-bold mb-5">Social</h2>

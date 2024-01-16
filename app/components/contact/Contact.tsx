@@ -21,12 +21,12 @@ const Contact: FC = () => {
     }
 
     return (
-        <section className="py-16">
+        <section className="py-16 w-full">
             <div className="text-center mb-12">
                 <h2 id="contact" className="text-3xl font-bold mb-12 relative heading-after">Contact</h2>
-                <p className="text-lg max-w-2xl mx-auto my-0 px-4">Feel free to contact me by submitting the form below and I will get back to you as soon as possible.</p>
+                <p className="text-lg max-w-2xl mx-auto my-0 px-4">I&apos;d love to hear from you!</p>
             </div>
-            <div className='px-4 md:px-0'>
+            <div className='px-4 md:px-0 max-w-screen-sm mx-auto my-0'>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className='mb-5'>
                         <label
