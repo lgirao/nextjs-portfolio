@@ -24,7 +24,7 @@ const About = () => {
                 <div className="px-4 mb-8 md:mb-0">
                     <h3 className="text-xl font-bold mb-6 text-center md:text-left">Get to know me!</h3>
                     <p className="text-base text-neutral-500">
-                        My love for web development started after completing my first few courses on Codecademy. Since then I have completed several courses including a Web Developer Bootcamp on Udemy and dedicating 2+ years in a technical position at LMS, Inc. as a Web Developer/Jr. Software Engineer.
+                        My love for web development started after completing my first few courses on Codecademy. Since then I have completed several courses including a Web Developer Bootcamp on Udemy and dedicated 2+ years in a technical position at LMS, Inc. as a Web Developer/Jr. Software Engineer.
                         <br></br><br></br>
                         I am interested in all things web development and am excited to grow and learn more in this field.
                         {/* As a passionate Web Developer, my expertise lies in leveraging cutting-edge technologies to deliver high-quality, well-documented, and reusable code. I specialize in optimizing and monitoring performance to ensure peak operation of web applications. My commitment extends to ensuring cross-browser compatibility, facilitating seamless user interaction across various platforms. With a robust foundation in HTML, CSS, JavaScript, and other web technologies, I consistently develop user-friendly web applications that make a lasting impact.                        
