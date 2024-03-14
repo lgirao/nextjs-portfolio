@@ -76,21 +76,21 @@ const Projects = () => {
                     <div className="flex justify-center">
                         <div className="flex flex-col max-w-xs mb-12 md:mb-0">
                             <Link
-                              href={"/"}
+                              href={"https://fragile-colt-veil.cyclic.app/"}
                               target="_blank"
                             >
                               <Image
-                                src="/portfolio-site.png"
+                                src="/shop-it.png"
                                 width={600}
                                 height={400}
                                 className='border shadow-xl mb-2'
-                                alt="Screenshot of Lesley Girao portfolio site"
+                                alt="Screenshot of shop it site"
                               />
                             </Link>
                             <div className="text-center">
-                                <h3 className="text-xl font-bold">Portfolio Site</h3>
+                                <h3 className="text-xl font-bold">Shop It</h3>
                                 <p className="text-sm mb-2">Personal</p>
-                                <p className="text-neutral-600">Portfolio website built using NextJS and NodeMailer.</p>
+                                <p className="text-neutral-600">MERN stack site deployed with Cyclic.</p>
                             </div>
                         </div>
                     </div>
